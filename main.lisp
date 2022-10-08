@@ -19,4 +19,9 @@
          (push (mod val bas) *stack*))
      (setf val (floor (/ val bas)))))
 
+(defun toDec (val bas)
+  (let ((c 0)(res 0))
+    (dolist (i val res)
+      (print i))))
+
 
